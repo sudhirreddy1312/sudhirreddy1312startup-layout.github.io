@@ -1,0 +1,89 @@
+.header{
+	background-color:#95DEE3;
+	font-variant: small-caps;
+	border-radius: 0.5em;
+	display: grid;
+	grid-template-rows: 70px;
+	text-transform: capitalize;
+}
+.nav{
+	display: flex;
+	list-style: none;
+}
+.push{
+	margin-left: auto;
+}
+li{
+	padding: 20px;
+}
+body{
+	margin: auto 0;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+.header:hover{
+	box-shadow: rgba(0,0,0,0.8) 0px 5px 15px;
+}
+.cover{
+	background-image: url(hp.jpg);
+	text-align: center;
+	background-color:#9B2335;
+	border-radius: 0.5em;
+	display: grid;
+	grid-template-rows: 700px;
+	color:white;
+}
+.grid{
+	background-color: #7FCDCD;
+	grid-row: 1fr;
+	border-radius: 0.5em;
+	display: grid;
+	grid-template-rows: 350px;
+	color:white;
+}
+.footer{
+	background-color:#EFC050;
+	font-variant: small-caps;
+	border-radius: 0.5em;
+	display: grid;
+	grid-template-rows: 10vh;
+	color:white;
+}
+.grid{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.sticky{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+img{
+	justify-content: center;
+	width: 400px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+	box-shadow: rgba(200,0,0,0.8) 0px 5px 15px; 
+}
+img:hover{
+	cursor: col-resize;
+	justify-content: center;
+	transform: scale(1.1);
+
+}
+	
+h1 {
+	border-right: 3px solid #AABBAAFF;
+	width: 350px;
+	border-bottom: 3px solid #AABBAAFF;
+	font-size: 1.5em;
+	text-align: center;
+	text-shadow: 3px solid #AABBAAFF;
+	font-style: italic;
+	font-variant: small-caps;
+	box-shadow: 4px 5px #999999;
+}
